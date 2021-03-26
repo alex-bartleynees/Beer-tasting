@@ -1,0 +1,20 @@
+{
+  "name": "Beer-tasting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alex-bartleynees/Beer-tasting.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alex-bartleynees/Beer-tasting/issues"
+  },
+  "homepage": "https://github.com/alex-bartleynees/Beer-tasting#readme"
+}
