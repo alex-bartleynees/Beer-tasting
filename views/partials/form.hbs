@@ -1,0 +1,81 @@
+<div class="columns m-5">
+  <div class="container is-max-widescreen">
+    
+    <form ref='uploadForm' 
+      id='uploadForm' 
+      action='http://localhost:3000/beer' 
+      method='post' 
+      encType="multipart/form-data">
+
+      <div class="column">
+        <div class="field">
+          <div class="control">
+            <label for="tasting-notes" class="label is-large">
+              Tasting Notes:
+              <input class="input is-link is-rounded spacing is-large" type="text" name="tasting-notes" value="">
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="field">
+          <div class="control">
+            <label for="rating" class="label is-large">
+              Rating:
+              <input class="input is-link is-rounded spacing is-large" type="text" name="rating" value="">
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="field">
+          <div class="control">
+            <label for="submittedby" class="label is-large">
+              Submitted By:
+              <input class="input is-link is-rounded spacing is-large" type="text" name="submittedby" value="">
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="field">
+          <div id="add-beer-photo" class="file has-name is-boxed is-link ">
+            <label class="file-label">
+              <input class="file-input" type="file" name="beerPhoto">
+              <span class="file-cta">
+                <span class="file-label">
+                  Upload Photo
+                </span>
+              </span>
+              <span class="file-name">
+
+              </span>
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="field">
+          <div class="control">
+            <button class="button is-link">Submit</button>
+          </div>
+        </div>
+
+
+    </form>
+  </div>
+</div>
+
+<script>
+  const fileInput = document.querySelector('#add-beer-photo input[type=file]');
+  fileInput.onchange = () => {
+    if (fileInput.files.length > 0) {
+      const fileName = document.querySelector('#add-beer-photo .file-name');
+      fileName.textContent = fileInput.files[0].name;
+    }
+  }
+</script>
