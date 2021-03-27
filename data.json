@@ -1,17 +1,1 @@
-{
-  "beers": [
-    {
-      "tasting-notes": "Hazy. Tropical aroma! Very fruity! Very smooth and easy to drink. Beautiful mouth feel. ",
-      "rating": "5 stars. Would highly recommend. ",
-      "name": "Alex",
-      "image": "/images/lloyd.jpg"
-    },
-    {
-      "tasting-notes": "Very dark and rich! Lots of chocolate and coffee with a bit of raspberry! Like a dessert in a glass! ",
-      "rating": "5 stars. Would highly recommend. ",
-      "name": "Alex",
-      "image": "/images/blackruby.jpg"
-    }
-   
-  ]
-}
+{"beers":[{"tasting-notes":"Hazy. Tropical aroma! Very fruity! Very smooth and easy to drink. Beautiful mouth feel. ","rating":"5 stars. Would highly recommend. ","name":"Alex","image":"/images/lloyd.jpg"},{"tasting-notes":"Very dark and rich! Lots of chocolate and coffee with a bit of raspberry! Like a dessert in a glass! ","rating":"5 stars. Would highly recommend. ","name":"Alex","image":"/images/blackruby.jpg"},{"tasting-notes":"Very hoppy!","rating":"5 stars, I like the hops!","name":"Alex","image":"/images/party.jpeg"}]}
