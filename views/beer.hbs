@@ -1,0 +1,25 @@
+
+<div class="columns is-multiline">
+ {{#each beers}}
+ 
+ <div class="column is-3">
+  <div class="card">
+    <div class="card-image">
+      <figure class="image">
+        <img src="{{image}}" alt="beer">
+        <div class="card-content">
+          <div class="content">
+            {{tasting-notes}} <br>
+            {{rating}} <br>
+            {{name}}
+          </div>
+        </div>
+      </figure>
+    </div>
+  </div>
+  </div>
+  
+  {{/each}}
+  </div>
+
+
